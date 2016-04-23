@@ -29,7 +29,7 @@ it.mbcraft.command_server.commands
 
 
 this means that all the commands (except 'core commands') are searched starting from this package.
-but can be changes using startup parameters (see help).
+This behaviour can be changed using startup parameters (see help).
 If a command is not found, a fallback search is done inside the package
 
 
@@ -45,7 +45,7 @@ POST /image/pdf/merge
 
 Will search for the command : it.mbcraft.command_server.commands.image.pdf.MergeCommand class.
 
-All parameters must be sended inside the POST request as form parameters.
+All mandatory command parameters must be sended inside the POST request as form parameters.
 Parameters are validated before command execution. 
 The command execution log is sent back as a response (plain text or whatever)
 with a HTTP 200 OK status code. If any error happens, an appropriate HTTP error
