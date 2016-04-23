@@ -1,0 +1,13 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}
+${licensePrefix}   Copyright MBCRAFT di Marco Bagnaresi - © 2013-2016
+${licensePrefix}   All rights reserved - Tutti i diritti riservati
+${licensePrefix}
+${licensePrefix}   Mail : info [ at ] mbcraft [ dot ] it 
+${licensePrefix}   Web : http://www.mbcraft.it
+${licensePrefix}
+<#if licenseLast??>
+${licenseLast}
+</#if>
